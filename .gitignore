@@ -1,0 +1,34 @@
+# Docker 관련 파일 제외
+**/docker-compose.override.yml
+**/docker-compose.*.yml
+**/docker-compose.override.*.yml
+
+# Docker 빌드 중 생성되는 파일 제외
+**/Dockerfile.*
+**/Dockerfile-* 
+docker-compose.override.yml
+
+# Docker 데이터와 캐시 디렉토리
+**/tmp
+**/log
+**/cache
+**/run
+**/data
+**/.env
+**/.venv
+**/node_modules
+
+# Docker 빌드 아티팩트
+*.tar
+*.tar.gz
+*.tar.xz
+*.tar.bz2
+*.deb
+*.rpm
+
+# Docker 관련 임시 파일
+*.pid
+*.sock
+*.swp
+*.bak
+*.tmp
