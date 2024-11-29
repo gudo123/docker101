@@ -4,4 +4,4 @@ COPY package.json .
 RUN npm install
 COPY . .
 EXPOSE 8091
-CMD [ "node", "simpleApp.mjs" ]
+CMD ["node", "simpleApp.mjs"]
